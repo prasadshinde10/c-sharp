@@ -20,6 +20,12 @@ namespace CSharp30Programs.Recursion
 
         static double Power(double x, int n)
         {
+            if (n < 0)
+            {
+                long exponent = -(long)n;
+                return 1 / PowerInternal(x, exponent);
+            }
+
             return PowerInternal(x, n);
         }
 
@@ -28,11 +34,6 @@ namespace CSharp30Programs.Recursion
             if (n == 0)
             {
                 return 1;
-            }
-
-            if (n < 0)
-            {
-                return 1 / PowerInternal(x, -n);
             }
 
             double half = PowerInternal(x, n / 2);
