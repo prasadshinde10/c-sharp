@@ -35,7 +35,13 @@ namespace CSharp30Programs.Recursion
                 return 1 / PowerInternal(x, -n);
             }
 
-            return x * PowerInternal(x, n - 1);
+            double half = PowerInternal(x, n / 2);
+            if (n % 2 == 0)
+            {
+                return half * half;
+            }
+
+            return x * half * half;
         }
     }
 }

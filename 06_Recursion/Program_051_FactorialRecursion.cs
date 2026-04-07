@@ -19,6 +19,11 @@ namespace CSharp30Programs.Recursion
 
         static long Factorial(int n)
         {
+            if (n < 0)
+            {
+                throw new ArgumentException("Factorial is not defined for negative numbers.");
+            }
+
             if (n <= 1)
             {
                 return 1;
