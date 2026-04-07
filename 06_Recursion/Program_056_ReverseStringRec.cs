@@ -14,18 +14,25 @@ namespace CSharp30Programs.Recursion
         static void Main(string[] args)
         {
             string text = "recursion";
+            char[] chars = text.ToCharArray();
+            Reverse(chars, 0, chars.Length - 1);
+
             Console.WriteLine($"Original: {text}");
-            Console.WriteLine($"Reversed: {Reverse(text, text.Length - 1)}");
+            Console.WriteLine($"Reversed: {new string(chars)}");
         }
 
-        static string Reverse(string text, int index)
+        static void Reverse(char[] chars, int left, int right)
         {
-            if (index < 0)
+            if (left >= right)
             {
-                return string.Empty;
+                return;
             }
 
-            return text[index] + Reverse(text, index - 1);
+            char temp = chars[left];
+            chars[left] = chars[right];
+            chars[right] = temp;
+
+            Reverse(chars, left + 1, right - 1);
         }
     }
 }

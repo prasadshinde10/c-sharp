@@ -13,17 +13,18 @@ namespace CSharp30Programs.Recursion
     {
         static void Main(string[] args)
         {
-            int number = 12345;
+            int number = -12345;
             Console.WriteLine($"Sum of digits of {number} is {SumDigits(number)}");
         }
 
-        static int SumDigits(int n)
+        static int SumDigits(long n)
         {
+            n = Math.Abs(n);
             if (n == 0)
             {
                 return 0;
             }
-            return (n % 10) + SumDigits(n / 10);
+            return (int)(n % 10) + SumDigits(n / 10);
         }
     }
 }

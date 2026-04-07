@@ -13,18 +13,29 @@ namespace CSharp30Programs.Recursion
     {
         static void Main(string[] args)
         {
-            int x = 2;
-            int n = 10;
+            double x = 2;
+            int n = -3;
             Console.WriteLine($"{x}^{n} = {Power(x, n)}");
         }
 
-        static long Power(int x, int n)
+        static double Power(double x, int n)
+        {
+            return PowerInternal(x, n);
+        }
+
+        static double PowerInternal(double x, long n)
         {
             if (n == 0)
             {
                 return 1;
             }
-            return x * Power(x, n - 1);
+
+            if (n < 0)
+            {
+                return 1 / PowerInternal(x, -n);
+            }
+
+            return x * PowerInternal(x, n - 1);
         }
     }
 }
