@@ -15,16 +15,17 @@ namespace CSharp30Programs.Recursion
         {
             string text = "recursion";
             Console.WriteLine($"Original: {text}");
-            Console.WriteLine($"Reversed: {Reverse(text)}");
+            Console.WriteLine($"Reversed: {Reverse(text, text.Length - 1)}");
         }
 
-        static string Reverse(string text)
+        static string Reverse(string text, int index)
         {
-            if (string.IsNullOrEmpty(text) || text.Length == 1)
+            if (index < 0)
             {
-                return text;
+                return string.Empty;
             }
-            return Reverse(text.Substring(1)) + text[0];
+
+            return text[index] + Reverse(text, index - 1);
         }
     }
 }

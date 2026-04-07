@@ -14,23 +14,36 @@ namespace CSharp30Programs.Recursion
         static void Main(string[] args)
         {
             int terms = 8;
+            int[] memo = new int[terms];
+            for (int i = 0; i < memo.Length; i++)
+            {
+                memo[i] = -1;
+            }
+
             Console.WriteLine($"First {terms} Fibonacci terms:");
 
             for (int i = 0; i < terms; i++)
             {
-                Console.Write(Fibonacci(i) + " ");
+                Console.Write(Fibonacci(i, memo) + " ");
             }
 
             Console.WriteLine();
         }
 
-        static int Fibonacci(int n)
+        static int Fibonacci(int n, int[] memo)
         {
             if (n <= 1)
             {
                 return n;
             }
-            return Fibonacci(n - 1) + Fibonacci(n - 2);
+
+            if (memo[n] != -1)
+            {
+                return memo[n];
+            }
+
+            memo[n] = Fibonacci(n - 1, memo) + Fibonacci(n - 2, memo);
+            return memo[n];
         }
     }
 }
