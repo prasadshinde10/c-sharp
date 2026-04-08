@@ -18,8 +18,8 @@ namespace CSharp30Programs.TypeConversion
             double doubleValue = Convert.ToDouble("99.75");
             string textValue = Convert.ToString(12345);
             bool boolValue = Convert.ToBoolean(1);
-            Console.WriteLine($"ToInt32("250"): {intValue}");
-            Console.WriteLine($"ToDouble("99.75"): {doubleValue}");
+            Console.WriteLine($"ToInt32(\"250\"): {intValue}");
+            Console.WriteLine($"ToDouble(\"99.75\"): {doubleValue}");
             Console.WriteLine($"ToString(12345): {textValue}");
             Console.WriteLine($"ToBoolean(1): {boolValue}");
         }
