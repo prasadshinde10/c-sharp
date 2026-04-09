@@ -23,8 +23,7 @@ namespace CSharp30Programs.Exception_Handling
                 Console.WriteLine(ex.StackTrace?.Split(Environment.NewLine)[0]);
             }
 
-            Console.WriteLine("
-Demo 2: throw (preserves stack trace)");
+            Console.WriteLine("\nDemo 2: throw (preserves stack trace)");
             try
             {
                 RethrowDemo();

@@ -16,8 +16,7 @@ namespace CSharp30Programs.Design_Patterns
             ReadData();
             ProcessData();
             WriteData();
-            Console.WriteLine("Export pipeline completed.
-");
+            Console.WriteLine("Export pipeline completed.\n");
         }
 
         protected abstract void ReadData();
