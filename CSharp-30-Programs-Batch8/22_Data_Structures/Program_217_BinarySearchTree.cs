@@ -69,12 +69,12 @@ namespace CSharp30Programs.DataStructures
 
         }
     }
-        class Node
-        {
-            public int Value;
-            public Node Left;
-            public Node Right;
-            public Node(int value) { Value = value; }
-        }
+    class Node
+    {
+        public int Value;
+        public Node Left;
+        public Node Right;
+        public Node(int value) { Value = value; }
+    }
 
 }
