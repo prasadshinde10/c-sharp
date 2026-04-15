@@ -22,11 +22,9 @@ namespace CSharp30Programs.ConsoleMiniProjects
                 lines.Add(line);
             }
 
-            string text = string.Join("
-", lines);
+            string text = string.Join("\n", lines);
             int words = 0;
-            foreach (var part in text.Split(new char[] { ' ', '
-', '	' }, StringSplitOptions.RemoveEmptyEntries)) words++;
+            foreach (var part in text.Split(new char[] { ' ', '\n', '\t' }, StringSplitOptions.RemoveEmptyEntries)) words++;
             int sentences = 0;
             foreach (char c in text) if (c == '.' || c == '!' || c == '?') sentences++;
             int paragraphs = 0;

@@ -28,8 +28,7 @@ namespace CSharp30Programs.OOPMiniProjects
 
             while (true)
             {
-                Console.WriteLine("
-1.Add 2.Remove 3.Search 4.Restock 5.List 6.Exit");
+                Console.WriteLine("\n1.Add 2.Remove 3.Search 4.Restock 5.List 6.Exit");
                 Console.Write("Choose: ");
                 string c = (Console.ReadLine() ?? "").Trim();
                 if (c == "6") break;

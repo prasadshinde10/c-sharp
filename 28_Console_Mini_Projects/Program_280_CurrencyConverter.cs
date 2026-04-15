@@ -24,8 +24,7 @@ namespace CSharp30Programs.ConsoleMiniProjects
 
             while (true)
             {
-                Console.WriteLine("
-Supported: USD, EUR, INR, JPY, GBP");
+                Console.WriteLine("\nSupported: USD, EUR, INR, JPY, GBP");
                 Console.Write("From currency (or EXIT): ");
                 string from = (Console.ReadLine() ?? "").Trim().ToUpper();
                 if (from == "EXIT") break;

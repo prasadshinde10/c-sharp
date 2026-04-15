@@ -16,8 +16,7 @@ namespace CSharp30Programs.ConsoleMiniProjects
             var contacts = new System.Collections.Generic.Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
             while (true)
             {
-                Console.WriteLine("
-1.Add 2.Search 3.Delete 4.ViewAll 5.Exit");
+                Console.WriteLine("\n1.Add 2.Search 3.Delete 4.ViewAll 5.Exit");
                 Console.Write("Choose: ");
                 string choice = (Console.ReadLine() ?? "").Trim();
                 if (choice == "1")

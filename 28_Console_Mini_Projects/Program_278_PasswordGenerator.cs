@@ -16,8 +16,7 @@ namespace CSharp30Programs.ConsoleMiniProjects
             Console.WriteLine("Password Generator");
             while (true)
             {
-                Console.WriteLine("
-Select strength: 1.Weak 2.Medium 3.Strong 4.Exit");
+                Console.WriteLine("\nSelect strength: 1.Weak 2.Medium 3.Strong 4.Exit");
                 Console.Write("Choose: ");
                 string choice = (Console.ReadLine() ?? "").Trim();
                 if (choice == "4") break;

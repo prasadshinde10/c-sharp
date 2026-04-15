@@ -27,8 +27,7 @@ namespace CSharp30Programs.OOPMiniProjects
 
             while (true)
             {
-                Console.WriteLine("
-1.Available 2.Book 3.Checkout 4.Exit");
+                Console.WriteLine("\n1.Available 2.Book 3.Checkout 4.Exit");
                 Console.Write("Choose: ");
                 string c = (Console.ReadLine() ?? "").Trim();
                 if (c == "4") break;

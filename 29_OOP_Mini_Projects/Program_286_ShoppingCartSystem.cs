@@ -25,8 +25,7 @@ namespace CSharp30Programs.OOPMiniProjects
             var cart = new System.Collections.Generic.Dictionary<string, CartItem>(StringComparer.OrdinalIgnoreCase);
             while (true)
             {
-                Console.WriteLine("
-1.Add 2.Remove 3.View 4.Bill 5.Exit");
+                Console.WriteLine("\n1.Add 2.Remove 3.View 4.Bill 5.Exit");
                 Console.Write("Choose: ");
                 string c = (Console.ReadLine() ?? "").Trim();
                 if (c == "5") break;

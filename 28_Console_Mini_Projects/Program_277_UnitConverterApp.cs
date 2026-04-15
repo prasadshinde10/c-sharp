@@ -15,8 +15,7 @@ namespace CSharp30Programs.ConsoleMiniProjects
         {
             while (true)
             {
-                Console.WriteLine("
-1.Length(km<->miles) 2.Weight(kg<->lb) 3.Temp(C<->F) 4.Exit");
+                Console.WriteLine("\n1.Length(km<->miles) 2.Weight(kg<->lb) 3.Temp(C<->F) 4.Exit");
                 Console.Write("Choose: ");
                 string choice = (Console.ReadLine() ?? "").Trim();
                 if (choice == "4") break;

@@ -31,8 +31,7 @@ namespace CSharp30Programs.OOPMiniProjects
 
             while (true)
             {
-                Console.WriteLine("
-Menu:");
+                Console.WriteLine("\nMenu:");
                 for (int i = 0; i < menu.Count; i++) Console.WriteLine($"{i + 1}. {menu[i].Name} - {menu[i].Price:C}");
                 Console.Write("Select item number (0 to bill): ");
                 if (!int.TryParse(Console.ReadLine(), out int choice)) continue;

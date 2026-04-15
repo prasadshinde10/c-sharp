@@ -35,13 +35,7 @@ namespace CSharp30Programs.AlgorithmMiniProjects
 
         static void Draw(char[] b)
         {
-            Console.WriteLine($"
-{b[0]}|{b[1]}|{b[2]}
--+-+-
-{b[3]}|{b[4]}|{b[5]}
--+-+-
-{b[6]}|{b[7]}|{b[8]}
-");
+            Console.WriteLine($"\n{b[0]}|{b[1]}|{b[2]}\n-+-+-\n{b[3]}|{b[4]}|{b[5]}\n-+-+-\n{b[6]}|{b[7]}|{b[8]}\n");
         }
 
         static bool Win(char[] b, char p)

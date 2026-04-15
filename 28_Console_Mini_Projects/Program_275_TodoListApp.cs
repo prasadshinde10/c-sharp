@@ -17,8 +17,7 @@ namespace CSharp30Programs.ConsoleMiniProjects
             var completed = new System.Collections.Generic.HashSet<int>();
             while (true)
             {
-                Console.WriteLine("
-1.Add 2.Remove 3.Complete 4.View 5.Exit");
+                Console.WriteLine("\n1.Add 2.Remove 3.Complete 4.View 5.Exit");
                 Console.Write("Choose: ");
                 string choice = (Console.ReadLine() ?? "").Trim();
                 if (choice == "1")

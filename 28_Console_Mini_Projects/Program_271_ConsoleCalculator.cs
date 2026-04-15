@@ -17,8 +17,7 @@ namespace CSharp30Programs.ConsoleMiniProjects
             Console.WriteLine("Console Calculator");
             while (true)
             {
-                Console.WriteLine("
-Choose operation: +  -  *  /  %  | H=History | Q=Quit");
+                Console.WriteLine("\nChoose operation: +  -  *  /  %  | H=History | Q=Quit");
                 string op = (Console.ReadLine() ?? "").Trim().ToUpper();
                 if (op == "Q") break;
                 if (op == "H")

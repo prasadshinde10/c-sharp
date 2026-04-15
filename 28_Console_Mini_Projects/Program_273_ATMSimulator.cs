@@ -24,8 +24,7 @@ namespace CSharp30Programs.ConsoleMiniProjects
 
             while (true)
             {
-                Console.WriteLine("
-1. Balance  2. Deposit  3. Withdraw  4. Exit");
+                Console.WriteLine("\n1. Balance  2. Deposit  3. Withdraw  4. Exit");
                 Console.Write("Choose: ");
                 string choice = (Console.ReadLine() ?? "").Trim();
                 if (choice == "1") Console.WriteLine($"Current balance: {balance:C}");
