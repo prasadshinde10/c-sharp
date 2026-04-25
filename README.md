@@ -1,41 +1,42 @@
-# 🚀 30 C# Programs — Batch 2 (031–060)
-### Categories: Strings | Arrays | Recursion
+# 🏁 30 C# Programs — Batch 10 (271–300) FINAL BATCH
+### Categories: Console Mini Projects | OOP Mini Projects | Algorithm Mini Projects
 
 | # | Program File | Category | Difficulty |
 |---|-------------|----------|------------|
-| 031 | Program_031_CountVowels.cs | Strings | Basic |
-| 032 | Program_032_ReplaceWords.cs | Strings | Basic |
-| 033 | Program_033_StringSplit.cs | Strings | Basic |
-| 034 | Program_034_StringReverse.cs | Strings | Basic |
-| 035 | Program_035_AnagramCheck.cs | Strings | Basic |
-| 036 | Program_036_CharFrequency.cs | Strings | Basic |
-| 037 | Program_037_RemoveDuplicates.cs | Strings | Basic |
-| 038 | Program_038_StringCompression.cs | Strings | Intermediate |
-| 039 | Program_039_TitleCase.cs | Strings | Basic |
-| 040 | Program_040_StringBuilderDemo.cs | Strings | Basic |
-| 041 | Program_041_ArraySum.cs | Arrays | Basic |
-| 042 | Program_042_FindMaxMin.cs | Arrays | Basic |
-| 043 | Program_043_ArrayReverse.cs | Arrays | Basic |
-| 044 | Program_044_BubbleSort.cs | Arrays | Basic |
-| 045 | Program_045_SelectionSort.cs | Arrays | Basic |
-| 046 | Program_046_LinearSearch.cs | Arrays | Basic |
-| 047 | Program_047_BinarySearch.cs | Arrays | Intermediate |
-| 048 | Program_048_2DArrayMatrix.cs | Arrays | Intermediate |
-| 049 | Program_049_MatrixMultiply.cs | Arrays | Intermediate |
-| 050 | Program_050_JaggedArray.cs | Arrays | Intermediate |
-| 051 | Program_051_FactorialRecursion.cs | Recursion | Basic |
-| 052 | Program_052_FibonacciRecursion.cs | Recursion | Basic |
-| 053 | Program_053_SumOfDigits.cs | Recursion | Basic |
-| 054 | Program_054_PowerFunction.cs | Recursion | Basic |
-| 055 | Program_055_GCDRecursion.cs | Recursion | Intermediate |
-| 056 | Program_056_ReverseStringRec.cs | Recursion | Intermediate |
-| 057 | Program_057_BinarySearchRec.cs | Recursion | Intermediate |
-| 058 | Program_058_CountOccurrences.cs | Recursion | Intermediate |
-| 059 | Program_059_PalindromeRecursion.cs | Recursion | Intermediate |
-| 060 | Program_060_TowerOfHanoi.cs | Recursion | Intermediate |
+| 271 | Program_271_ConsoleCalculator.cs | Console Projects | Intermediate |
+| 272 | Program_272_NumberGuessingGame.cs | Console Projects | Intermediate |
+| 273 | Program_273_ATMSimulator.cs | Console Projects | Intermediate |
+| 274 | Program_274_QuizApp.cs | Console Projects | Intermediate |
+| 275 | Program_275_TodoListApp.cs | Console Projects | Intermediate |
+| 276 | Program_276_ContactBook.cs | Console Projects | Intermediate |
+| 277 | Program_277_UnitConverterApp.cs | Console Projects | Intermediate |
+| 278 | Program_278_PasswordGenerator.cs | Console Projects | Intermediate |
+| 279 | Program_279_WordCounterApp.cs | Console Projects | Intermediate |
+| 280 | Program_280_CurrencyConverter.cs | Console Projects | Intermediate |
+| 281 | Program_281_BankingSystem.cs | OOP Projects | Intermediate |
+| 282 | Program_282_LibrarySystem.cs | OOP Projects | Intermediate |
+| 283 | Program_283_StudentGradeSystem.cs | OOP Projects | Intermediate |
+| 284 | Program_284_InventorySystem.cs | OOP Projects | Intermediate |
+| 285 | Program_285_HotelBookingSystem.cs | OOP Projects | Intermediate |
+| 286 | Program_286_ShoppingCartSystem.cs | OOP Projects | Intermediate |
+| 287 | Program_287_EmployeePayroll.cs | OOP Projects | Intermediate |
+| 288 | Program_288_VehicleRentalSystem.cs | OOP Projects | Intermediate |
+| 289 | Program_289_SchoolManagement.cs | OOP Projects | Intermediate |
+| 290 | Program_290_RestaurantBilling.cs | OOP Projects | Intermediate |
+| 291 | Program_291_SudokuValidator.cs | Algorithm Projects | Intermediate |
+| 292 | Program_292_TicTacToe.cs | Algorithm Projects | Intermediate |
+| 293 | Program_293_SnakeAndLadder.cs | Algorithm Projects | Intermediate |
+| 294 | Program_294_WordSearchPuzzle.cs | Algorithm Projects | Intermediate |
+| 295 | Program_295_RockPaperScissors.cs | Algorithm Projects | Intermediate |
+| 296 | Program_296_HangmanGame.cs | Algorithm Projects | Intermediate |
+| 297 | Program_297_NumberPuzzle2048.cs | Algorithm Projects | Intermediate |
+| 298 | Program_298_FloodFillAlgorithm.cs | Algorithm Projects | Intermediate |
+| 299 | Program_299_PathFinderBFS.cs | Algorithm Projects | Intermediate |
+| 300 | Program_300_MazeSolver.cs | Algorithm Projects | Intermediate |
 
 ## How to Run
 - Open any .cs file in Visual Studio or VS Code
-- Or run: dotnet-script Program_XXX_Name.cs
+- Or run: dotnet-script Program_XX_Name.cs
 
-Part of the 300 C# Programs series | Batch 2 of 10
+## 🎉 300 C# Programs Complete!
+Part of the 300 C# Programs series | Batch 10 of 10 — FINAL
