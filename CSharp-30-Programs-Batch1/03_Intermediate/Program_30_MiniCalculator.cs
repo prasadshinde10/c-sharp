@@ -14,6 +14,7 @@ namespace CSharp30Programs.Intermediate
         static void Main(string[] args)
         {
             Console.WriteLine("Mini Calculator (type Q to quit)");
+            const double tolerance = 1e-12;
 
             while (true)
             {
@@ -52,7 +53,7 @@ namespace CSharp30Programs.Intermediate
                         Console.WriteLine($"Result: {first * second}");
                         break;
                     case "/":
-                        if (second == 0)
+                        if (Math.Abs(second) < tolerance)
                         {
                             Console.WriteLine("Error: Division by zero.");
                         }
