@@ -6,6 +6,7 @@
 // ============================================
 
 using System;
+using System.Text;
 
 namespace CSharp30Programs.Basics
 {
@@ -16,14 +17,15 @@ namespace CSharp30Programs.Basics
             Console.WriteLine("Enter a string:");
             string input = Console.ReadLine() ?? string.Empty;
 
-            string cleaned = string.Empty;
+            StringBuilder builder = new StringBuilder();
             foreach (char ch in input)
             {
                 if (!char.IsWhiteSpace(ch))
                 {
-                    cleaned += char.ToLower(ch);
+                    builder.Append(char.ToLower(ch));
                 }
             }
+            string cleaned = builder.ToString();
 
             char[] chars = cleaned.ToCharArray();
             Array.Reverse(chars);
