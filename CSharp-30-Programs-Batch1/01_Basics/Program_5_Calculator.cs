@@ -29,6 +29,7 @@ namespace CSharp30Programs.Basics
 
             Console.WriteLine("Choose operation (+, -, *, /):");
             string operation = Console.ReadLine() ?? string.Empty;
+            const double tolerance = 1e-9;
 
             switch (operation)
             {
@@ -42,7 +43,7 @@ namespace CSharp30Programs.Basics
                     Console.WriteLine($"Result: {first * second}");
                     break;
                 case "/":
-                    if (second == 0)
+                    if (Math.Abs(second) < tolerance)
                     {
                         Console.WriteLine("Error: Division by zero.");
                     }

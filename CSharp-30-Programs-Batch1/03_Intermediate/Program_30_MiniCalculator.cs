@@ -14,7 +14,7 @@ namespace CSharp30Programs.Intermediate
         static void Main(string[] args)
         {
             Console.WriteLine("Mini Calculator (type Q to quit)");
-            const double tolerance = 1e-12;
+            const double tolerance = 1e-9;
 
             while (true)
             {
